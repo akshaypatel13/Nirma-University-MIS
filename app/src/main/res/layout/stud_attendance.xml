@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mis.nirma.nirmauniversitymis.barchart"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:scrollbars="vertical"
+    app:layout_scrollFlags="scroll">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff290">
+
+        <TextView
+            android:id="@+id/NA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Attendance is Available. Contact System Administrator."
+            android:textSize="30sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/Sub1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/black"
+            android:text="Sub1"
+            android:textAlignment="center"
+            android:textColor="#fff290"
+            android:textColorLink="@android:color/white"
+            android:textStyle="normal|bold" />
+
+        <RelativeLayout
+            android:id="@+id/bar1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+            <com.github.mikephil.charting.charts.HorizontalBarChart
+                android:id="@+id/barchart1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/Sub2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/black"
+            android:text="Sub2"
+            android:textAlignment="center"
+            android:textColor="#fff290"
+            android:textColorLink="@android:color/white"
+            android:textStyle="normal|bold" />
+
+        <RelativeLayout
+            android:id="@+id/bar2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+            <com.github.mikephil.charting.charts.HorizontalBarChart
+                android:id="@+id/barchart2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/Sub3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/black"
+            android:text="Sub3"
+            android:textAlignment="center"
+            android:textColor="#fff290"
+            android:textColorLink="@android:color/white"
+            android:textStyle="normal|bold" />
+
+        <RelativeLayout
+            android:id="@+id/bar3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+            <com.github.mikephil.charting.charts.HorizontalBarChart
+                android:id="@+id/barchart3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/Sub4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/black"
+            android:text="Sub4"
+            android:textAlignment="center"
+            android:textColor="#fff290"
+            android:textColorLink="@android:color/white"
+            android:textStyle="normal|bold" />
+
+        <RelativeLayout
+            android:id="@+id/bar4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+            <com.github.mikephil.charting.charts.HorizontalBarChart
+                android:id="@+id/barchart4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/Sub5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/black"
+            android:text="Sub5"
+            android:textAlignment="center"
+            android:textColor="#fff290"
+            android:textColorLink="@android:color/white"
+            android:textStyle="normal|bold" />
+
+        <RelativeLayout
+            android:id="@+id/bar5"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+            <com.github.mikephil.charting.charts.HorizontalBarChart
+                android:id="@+id/barchart5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/Sub6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/black"
+            android:text="Sub6"
+            android:textAlignment="center"
+            android:textColor="#fff290"
+            android:textColorLink="@android:color/white"
+            android:textStyle="normal|bold" />
+
+        <RelativeLayout
+            android:id="@+id/bar6"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+            <com.github.mikephil.charting.charts.HorizontalBarChart
+                android:id="@+id/barchart6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/Sub7"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/black"
+            android:text="Sub7"
+            android:textAlignment="center"
+            android:textColor="#fff290"
+            android:textColorLink="@android:color/white"
+            android:textStyle="normal|bold" />
+
+        <RelativeLayout
+            android:id="@+id/bar7"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+            <com.github.mikephil.charting.charts.HorizontalBarChart
+                android:id="@+id/barchart7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/Sub8"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/black"
+            android:text="Sub8"
+            android:textAlignment="center"
+            android:textColor="#fff290"
+            android:textColorLink="@android:color/white"
+            android:textStyle="normal|bold" />
+
+        <RelativeLayout
+            android:id="@+id/bar8"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+            <com.github.mikephil.charting.charts.HorizontalBarChart
+                android:id="@+id/barchart8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/Sub9"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/black"
+            android:text="Sub9"
+            android:textAlignment="center"
+            android:textColor="#fff290"
+            android:textColorLink="@android:color/white"
+            android:textStyle="normal|bold" />
+
+        <RelativeLayout
+            android:id="@+id/bar9"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+            <com.github.mikephil.charting.charts.HorizontalBarChart
+                android:id="@+id/barchart9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/Sub10"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/black"
+            android:text="Sub10"
+            android:textAlignment="center"
+            android:textColor="#fff290"
+            android:textColorLink="@android:color/white"
+            android:textStyle="normal|bold" />
+
+        <RelativeLayout
+            android:id="@+id/bar10"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+            <com.github.mikephil.charting.charts.HorizontalBarChart
+                android:id="@+id/barchart10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/Sub11"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/black"
+            android:text="Sub11"
+            android:textAlignment="center"
+            android:textColor="#fff290"
+            android:textColorLink="@android:color/white"
+            android:textStyle="normal|bold" />
+
+        <RelativeLayout
+            android:id="@+id/bar11"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+            <com.github.mikephil.charting.charts.HorizontalBarChart
+                android:id="@+id/barchart11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/Sub12"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/black"
+            android:text="Sub12"
+            android:textAlignment="center"
+            android:textColor="#fff290"
+            android:textColorLink="@android:color/white"
+            android:textStyle="normal|bold" />
+
+        <RelativeLayout
+            android:id="@+id/bar12"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+            <com.github.mikephil.charting.charts.HorizontalBarChart
+                android:id="@+id/barchart12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:background="#fff290">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <Button
+            android:id="@+id/mondayb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/black"
+            android:text="Monday"
+            android:textColor="#fff290" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:id="@+id/montable">
+
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:id="@+id/mons11"
+                    android:text="9.00-9.50" />
+
+                <TextView
+                    android:id="@+id/mons12"
+                    android:layout_column="2"
+                    android:gravity="left"
+                    android:text="Elective-1(P)" />
+
+                <TextView
+                    android:id="@+id/mons13"
+                    android:layout_column="3"
+                    android:gravity="left"
+                    android:text="DB" />
+                <TextView
+                    android:id="@+id/mons14"
+                    android:layout_column="4"
+                    android:text="B2015"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/mons21"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="9.50-10.50" />
+                <TextView
+                    android:id="@+id/mons22"
+                    android:layout_column="2"
+                    android:text="Elective-1(P)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/mons23"
+                    android:layout_column="3"
+                    android:text="DB"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/mons24"
+                    android:layout_column="4"
+                    android:text="B2015"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/mons31"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="11.15-12.15" />
+                <TextView
+                    android:id="@+id/mons32"
+                    android:layout_column="2"
+                    android:text="Elective-3(T)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/mons33"
+                    android:layout_column="3"
+                    android:text="RAK"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/mons34"
+                    android:layout_column="4"
+                    android:text="B104"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/mons41"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="12.15-1.15" />
+                <TextView
+                    android:id="@+id/mons42"
+                    android:layout_column="2"
+                    android:text="Elective-3(T)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/mons43"
+                    android:layout_column="3"
+                    android:text="RAK"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/mons44"
+                    android:layout_column="4"
+                    android:text="B104"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/mons51"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="2.00-3.00" />
+                <TextView
+                    android:id="@+id/mons52"
+                    android:layout_column="2"
+                    android:text="Elective-2(L)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/mons53"
+                    android:layout_column="3"
+                    android:text="KC"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/mons54"
+                    android:layout_column="4"
+                    android:text="B204"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/mons61"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="3.00-4.00" />
+                <TextView
+                    android:id="@+id/mons62"
+                    android:layout_column="2"
+                    android:text="DAA(L)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/mons63"
+                    android:layout_column="3"
+                    android:text="PP"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/mons64"
+                    android:layout_column="4"
+                    android:text="B212B"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/mons71"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="4.15-5.15" />
+                <TextView
+                    android:id="@+id/mons72"
+                    android:layout_column="2"
+                    android:text="Uni. Elective"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/mons73"
+                    android:layout_column="3"
+                    android:text="IR"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/mons74"
+                    android:layout_column="4"
+                    android:text="T-3"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/mons81"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="4.15-5.15" />
+                <TextView
+                    android:id="@+id/mons82"
+                    android:layout_column="2"
+                    android:text="Uni. Elective"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/mons83"
+                    android:layout_column="3"
+                    android:text="IR"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/mons84"
+                    android:layout_column="4"
+                    android:text="T-3"
+                    android:gravity="center" />
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/tuesdayb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/black"
+            android:text="Tuesday"
+            android:textColor="#fff290" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:id="@+id/tuestable">
+
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:id="@+id/tues11"
+                    android:text="9.00-9.50" />
+
+                <TextView
+                    android:id="@+id/tues12"
+                    android:layout_column="2"
+                    android:gravity="left"
+                    android:text="Elective-1(P)" />
+
+                <TextView
+                    android:id="@+id/tues13"
+                    android:layout_column="3"
+                    android:gravity="left"
+                    android:text="DB" />
+                <TextView
+                    android:id="@+id/tues14"
+                    android:layout_column="4"
+                    android:text="B2015"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tues21"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="9.50-10.50" />
+                <TextView
+                    android:id="@+id/tues22"
+                    android:layout_column="2"
+                    android:text="Elective-1(P)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/tues23"
+                    android:layout_column="3"
+                    android:text="DB"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/tues24"
+                    android:layout_column="4"
+                    android:text="B2015"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tues31"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="11.15-12.15" />
+                <TextView
+                    android:id="@+id/tues32"
+                    android:layout_column="2"
+                    android:text="Elective-3(T)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/tues33"
+                    android:layout_column="3"
+                    android:text="RAK"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/tues34"
+                    android:layout_column="4"
+                    android:text="B104"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tues41"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="12.15-1.15" />
+                <TextView
+                    android:id="@+id/tues42"
+                    android:layout_column="2"
+                    android:text="Elective-3(T)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/tues43"
+                    android:layout_column="3"
+                    android:text="RAK"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/tues44"
+                    android:layout_column="4"
+                    android:text="B104"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tues51"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="2.00-3.00" />
+                <TextView
+                    android:id="@+id/tues52"
+                    android:layout_column="2"
+                    android:text="Elective-2(L)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/tues53"
+                    android:layout_column="3"
+                    android:text="KC"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/tues54"
+                    android:layout_column="4"
+                    android:text="B204"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tues61"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="3.00-4.00" />
+                <TextView
+                    android:id="@+id/tues62"
+                    android:layout_column="2"
+                    android:text="DAA(L)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/tues63"
+                    android:layout_column="3"
+                    android:text="PP"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/tues64"
+                    android:layout_column="4"
+                    android:text="B212B"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tues71"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="4.15-5.15" />
+                <TextView
+                    android:id="@+id/tues72"
+                    android:layout_column="2"
+                    android:text="Uni. Elective"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/tues73"
+                    android:layout_column="3"
+                    android:text="IR"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/tues74"
+                    android:layout_column="4"
+                    android:text="T-3"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tues81"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="4.15-5.15" />
+                <TextView
+                    android:id="@+id/tues82"
+                    android:layout_column="2"
+                    android:text="Uni. Elective"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/tues83"
+                    android:layout_column="3"
+                    android:text="IR"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/tues84"
+                    android:layout_column="4"
+                    android:text="T-3"
+                    android:gravity="center" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/wednesdayb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/black"
+            android:text="Wednesday"
+            android:textColor="#fff290" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:id="@+id/wednestable">
+
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:id="@+id/weds11"
+                    android:text="9.00-9.50" />
+
+                <TextView
+                    android:id="@+id/weds12"
+                    android:layout_column="2"
+                    android:gravity="left"
+                    android:text="Elective-1(P)" />
+
+                <TextView
+                    android:id="@+id/weds13"
+                    android:layout_column="3"
+                    android:gravity="left"
+                    android:text="DB" />
+                <TextView
+                    android:id="@+id/weds14"
+                    android:layout_column="4"
+                    android:text="B2015"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/weds21"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="9.50-10.50" />
+                <TextView
+                    android:id="@+id/weds22"
+                    android:layout_column="2"
+                    android:text="Elective-1(P)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/weds23"
+                    android:layout_column="3"
+                    android:text="DB"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/weds24"
+                    android:layout_column="4"
+                    android:text="B2015"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/weds31"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="11.15-12.15" />
+                <TextView
+                    android:id="@+id/weds32"
+                    android:layout_column="2"
+                    android:text="Elective-3(T)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/weds33"
+                    android:layout_column="3"
+                    android:text="RAK"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/weds34"
+                    android:layout_column="4"
+                    android:text="B104"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/weds41"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="12.15-1.15" />
+                <TextView
+                    android:id="@+id/weds42"
+                    android:layout_column="2"
+                    android:text="Elective-3(T)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/weds43"
+                    android:layout_column="3"
+                    android:text="RAK"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/weds44"
+                    android:layout_column="4"
+                    android:text="B104"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/weds51"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="2.00-3.00" />
+                <TextView
+                    android:id="@+id/weds52"
+                    android:layout_column="2"
+                    android:text="Elective-2(L)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/weds53"
+                    android:layout_column="3"
+                    android:text="KC"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/weds54"
+                    android:layout_column="4"
+                    android:text="B204"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/weds61"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="3.00-4.00" />
+                <TextView
+                    android:id="@+id/weds62"
+                    android:layout_column="2"
+                    android:text="DAA(L)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/weds63"
+                    android:layout_column="3"
+                    android:text="PP"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/weds64"
+                    android:layout_column="4"
+                    android:text="B212B"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/weds71"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="4.15-5.15" />
+                <TextView
+                    android:id="@+id/weds72"
+                    android:layout_column="2"
+                    android:text="Uni. Elective"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/weds73"
+                    android:layout_column="3"
+                    android:text="IR"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/weds74"
+                    android:layout_column="4"
+                    android:text="T-3"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/weds81"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="4.15-5.15" />
+                <TextView
+                    android:id="@+id/weds82"
+                    android:layout_column="2"
+                    android:text="Uni. Elective"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/weds83"
+                    android:layout_column="3"
+                    android:text="IR"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/weds84"
+                    android:layout_column="4"
+                    android:text="T-3"
+                    android:gravity="center" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/thursdayb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/black"
+            android:text="Thursday"
+            android:textColor="#fff290" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:id="@+id/thurstable">
+
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:id="@+id/thurs11"
+                    android:text="9.00-9.50" />
+
+                <TextView
+                    android:id="@+id/thurs12"
+                    android:layout_column="2"
+                    android:gravity="left"
+                    android:text="Elective-1(P)" />
+
+                <TextView
+                    android:id="@+id/thurs13"
+                    android:layout_column="3"
+                    android:gravity="left"
+                    android:text="DB" />
+                <TextView
+                    android:id="@+id/thurs14"
+                    android:layout_column="4"
+                    android:text="B2015"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/thurs21"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="9.50-10.50" />
+                <TextView
+                    android:id="@+id/thurs22"
+                    android:layout_column="2"
+                    android:text="Elective-1(P)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/thurs23"
+                    android:layout_column="3"
+                    android:text="DB"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/thurs24"
+                    android:layout_column="4"
+                    android:text="B2015"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/thurs31"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="11.15-12.15" />
+                <TextView
+                    android:id="@+id/thurs32"
+                    android:layout_column="2"
+                    android:text="Elective-3(T)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/thurs33"
+                    android:layout_column="3"
+                    android:text="RAK"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/thurs34"
+                    android:layout_column="4"
+                    android:text="B104"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/thurs41"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="12.15-1.15" />
+                <TextView
+                    android:id="@+id/thurs42"
+                    android:layout_column="2"
+                    android:text="Elective-3(T)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/thurs43"
+                    android:layout_column="3"
+                    android:text="RAK"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/thurs44"
+                    android:layout_column="4"
+                    android:text="B104"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/thurs51"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="2.00-3.00" />
+                <TextView
+                    android:id="@+id/thurs52"
+                    android:layout_column="2"
+                    android:text="Elective-2(L)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/thurs53"
+                    android:layout_column="3"
+                    android:text="KC"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/thurs54"
+                    android:layout_column="4"
+                    android:text="B204"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/thurs61"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="3.00-4.00" />
+                <TextView
+                    android:id="@+id/thurs62"
+                    android:layout_column="2"
+                    android:text="DAA(L)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/thurs63"
+                    android:layout_column="3"
+                    android:text="PP"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/thurs64"
+                    android:layout_column="4"
+                    android:text="B212B"
+                    android:gravity="center" />
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/thurs71"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="4.15-5.15" />
+                <TextView
+                    android:id="@+id/thurs72"
+                    android:layout_column="2"
+                    android:text="Uni. Elective"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/thurs73"
+                    android:layout_column="3"
+                    android:text="IR"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/thurs74"
+                    android:layout_column="4"
+                    android:text="T-3"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/thurs81"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="4.15-5.15" />
+                <TextView
+                    android:id="@+id/thurs82"
+                    android:layout_column="2"
+                    android:text="Uni. Elective"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/thurs83"
+                    android:layout_column="3"
+                    android:text="IR"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/thurs84"
+                    android:layout_column="4"
+                    android:text="T-3"
+                    android:gravity="center" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/fridayb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/black"
+            android:text="Friday"
+            android:textColor="#fff290" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:id="@+id/fritable">
+
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:id="@+id/fris11"
+                    android:text="9.00-9.50" />
+
+                <TextView
+                    android:id="@+id/fris12"
+                    android:layout_column="2"
+                    android:gravity="left"
+                    android:text="Elective-1(P)" />
+
+                <TextView
+                    android:id="@+id/fris13"
+                    android:layout_column="3"
+                    android:gravity="left"
+                    android:text="DB" />
+                <TextView
+                    android:id="@+id/fris14"
+                    android:layout_column="4"
+                    android:text="B2015"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/fris21"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="9.50-10.50" />
+                <TextView
+                    android:id="@+id/fris22"
+                    android:layout_column="2"
+                    android:text="Elective-1(P)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/fris23"
+                    android:layout_column="3"
+                    android:text="DB"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/fris24"
+                    android:layout_column="4"
+                    android:text="B2015"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/fris31"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="11.15-12.15" />
+                <TextView
+                    android:id="@+id/fris32"
+                    android:layout_column="2"
+                    android:text="Elective-3(T)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/fris33"
+                    android:layout_column="3"
+                    android:text="RAK"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/fris34"
+                    android:layout_column="4"
+                    android:text="B104"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/fris41"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="12.15-1.15" />
+                <TextView
+                    android:id="@+id/fris42"
+                    android:layout_column="2"
+                    android:text="Elective-3(T)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/fris43"
+                    android:layout_column="3"
+                    android:text="RAK"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/fris44"
+                    android:layout_column="4"
+                    android:text="B104"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/fris51"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="2.00-3.00" />
+                <TextView
+                    android:id="@+id/fris52"
+                    android:layout_column="2"
+                    android:text="Elective-2(L)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/fris53"
+                    android:layout_column="3"
+                    android:text="KC"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/fris54"
+                    android:layout_column="4"
+                    android:text="B204"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/fris61"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="3.00-4.00" />
+                <TextView
+                    android:id="@+id/fris62"
+                    android:layout_column="2"
+                    android:text="DAA(L)"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/fris63"
+                    android:layout_column="3"
+                    android:text="PP"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/fris64"
+                    android:layout_column="4"
+                    android:text="B212B"
+                    android:gravity="center" />
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/fris71"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="4.15-5.15" />
+                <TextView
+                    android:id="@+id/fris72"
+                    android:layout_column="2"
+                    android:text="Uni. Elective"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/fris73"
+                    android:layout_column="3"
+                    android:text="IR"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/fris74"
+                    android:layout_column="4"
+                    android:text="T-3"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/fris81"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    android:text="4.15-5.15" />
+                <TextView
+                    android:id="@+id/fris82"
+                    android:layout_column="2"
+                    android:text="Uni. Elective"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/fris83"
+                    android:layout_column="3"
+                    android:text="IR"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/fris84"
+                    android:layout_column="4"
+                    android:text="T-3"
+                    android:gravity="center" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/saturdayb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/black"
+            android:text="Saturday"
+            android:textColor="#fff290" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:id="@+id/saturtable">
+
+            <TextView android:text="Coming Soon.." />
+        </TableLayout>
+    </LinearLayout>
+</RelativeLayout>
